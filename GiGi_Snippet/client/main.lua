@@ -184,15 +184,15 @@ Citizen.CreateThread(function()
 		SetScenarioPedDensityMultiplierThisFrame(1.0, 1.0) --seleciona a densidade de Npc a andar pela cidade
 		SetGarbageTrucks(false) --Desactiva os Camioes do Lixo de dar Spawn Aleatoriamente
 		SetRandomBoats(false) --Desactiva os Barcos de dar Spawn na agua
-        SetCreateRandomCops(false) --Desactiva a Policia a andar pela cidade
+                SetCreateRandomCops(false) --Desactiva a Policia a andar pela cidade
 		SetCreateRandomCopsNotOnScenarios(false) --Para o Spanw Aleatorio de Policias Fora do Cenario
 		SetCreateRandomCopsOnScenarios(false) --Para o Spanw Aleatorio de Policias no Cenario
-        DisablePlayerVehicleRewards(PlayerId()) --Nao mexer --> Impossibilita que os players possam ganhar armas nas viaturas da policia e ems
-        local x,y,z = table.unpack(GetEntityCoords(PlayerPedId()))
+                DisablePlayerVehicleRewards(PlayerId()) --Nao mexer --> Impossibilita que os players possam ganhar armas nas viaturas da policia e ems
+                local x,y,z = table.unpack(GetEntityCoords(PlayerPedId()))
 		ClearAreaOfVehicles(x, y, z, 1000, false, false, false, false, false)
 		RemoveVehiclesFromGeneratorsInArea(x - 500.0, y - 500.0, z - 500.0, x + 500.0, y + 500.0, z + 500.0);
-	 end
-end)
+	    end
+     end)
 
 --No Aim + Snipper Aim
 Citizen.CreateThread(function()
