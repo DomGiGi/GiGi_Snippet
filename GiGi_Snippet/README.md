@@ -10,7 +10,7 @@ Changes Made.
 
 ### Features ###
 
--> Hands Up -> Vk_HandsUp
+-> Hands Up
 -> Point 
 -> Crouch  
 -> Retira Mira Fica so a da snipper
@@ -20,9 +20,7 @@ Changes Made.
 -> Tira Armas Aos Npc (nao dropam armas)
 -> Disable Dispatch (desactiva ambulancias de npc e viaturas da policia)
 
--> HandsUp retirado do Vk_HandsUp (Creditos para seu Criador)
-
--> Hands Up -> Vk_HandsUp
+-> Hands Up 
 -> Point
 -> Crouch
 -> Remove Aim leves just the snipper aim
@@ -31,5 +29,3 @@ Changes Made.
 -> Impossible to gain weapons in police cars and ems
 -> Take Weapons To NPC (do not drop weapons)
 -> Disable Dispatch (deactivates npc ambulances and police vehicles)
-
--> HandsUp removed from Vk_HandsUp (Credits for is Creator)
